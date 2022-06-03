@@ -4,6 +4,7 @@ import { useState , useEffect} from 'react'
 import UseState from './Hooks/UseState';
 import UseEffects from './Hooks/UseEffects';
 import UseMemo from './Hooks/UseMemo';
+import USeref from './Hooks/UseRef';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
    <>
    {/* <UseState/>  */}
    {/* <UseEffects/> */}
-   <UseMemo/>
+   {/* <UseMemo/> */}
+   <USeref/>
    </>
    
   );
