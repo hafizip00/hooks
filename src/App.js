@@ -9,6 +9,7 @@ import USeref from './Hooks/UseRef';
 import Context from './Hooks/Context';
 import UseReducer from './Hooks/UseReducer';
 import UseCallback from './Hooks/UseCallback';
+import TestCustomHook from './Hooks/TestCustomHook';
 
 export const Info = createContext() 
 function App() {
@@ -27,7 +28,8 @@ function App() {
 <button onClick={()=> setState(prev => prev +1)}>Update</button> */}
 
   {/* <UseReducer/> */}
-  <UseCallback/>
+  {/* <UseCallback/> */}
+  <TestCustomHook/>
    </>
    
   );
